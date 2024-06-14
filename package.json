@@ -7,5 +7,10 @@
     "dev": "node --watch ./src/index.js"
   },
   "author": "Juan Carlos Jiménez Gutiérrez <jcjimenez29@misena.edu.co>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.1"
+  }
 }
