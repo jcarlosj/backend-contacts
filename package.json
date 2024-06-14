@@ -4,7 +4,7 @@
   "description": "BackEnd Nesting Components in Angular",
   "main": "index.js",
   "scripts": {
-    "dev": "node --watch ./src/index.js"
+    "dev": "node --env-file .env --watch ./src/index.js"
   },
   "author": "Juan Carlos Jiménez Gutiérrez <jcjimenez29@misena.edu.co>",
   "license": "ISC",
