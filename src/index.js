@@ -10,7 +10,7 @@ app.use( cors() );
 
 /** Definimos las rutas disponibles */
 app.get( '/', (req, res) => res.send( '<h1>Home</h1>' ));
-
+app.use( '/api/contacts', require( './routes/contact.routes' ) );
 
 // Invoca la configuracion de la base de datos para establecer la conexion
 dbConnection();     
